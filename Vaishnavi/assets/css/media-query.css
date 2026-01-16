@@ -1,0 +1,353 @@
+@media(max-width:1280px) {
+
+    /*============= skills-page =============*/
+    .skills-use,
+    .skills-learn,
+    .skills-other {
+        grid-template-columns: repeat(auto-fit, minmax(160px, max-content));
+    }
+}
+
+@media(max-width:1024px) {
+
+    /*===== hero-page ======*/
+    .hero-photo {
+        width: 75%;
+    }
+
+    h2.hero-head {
+        font-size: 2.1rem;
+    }
+
+    h3.hero-role {
+        font-size: 1.2rem;
+    }
+
+    p.hero-title {
+        font-size: 1.1rem;
+        width: 78%;
+    }
+
+    p.hero-details {
+        font-size: 1.1rem;
+    }
+
+    /*================ skills-page ================*/
+    .skills-use,
+    .skills-learn,
+    .skills-other {
+        grid-template-columns: repeat(auto-fit, minmax(160px, max-content));
+        gap: 1.5rem;
+    }
+
+    /*================ projects ================*/
+    .project-heading-1 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+    }
+}
+
+@media (max-width:991px) {
+
+    /*========== header  ==========*/
+    ul.navbar-nav {
+        text-align: center;
+    }
+
+    ul.social-desk {
+        display: none;
+    }
+
+    ul.social-links {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        gap: 4rem;
+        margin-top: 2rem;
+    }
+
+    /*=================== hero-page ===================*/
+    .hero {
+        padding-block-start: 3rem;
+        padding-block-end: 3rem;
+    }
+
+    /*=================== about  ===================*/
+    a.hire-me,
+    a.cv {
+        width: 50%;
+    }
+
+    button.btn-hire,
+    button.btn-cv {
+        width: 94%;
+    }
+    h5.about-subtitle {
+        font-size: 1.02rem;
+        font-weight: 600;
+    }
+
+    p.about-sec {
+        font-size: 0.9rem;
+        font-weight: 400;
+        letter-spacing: 0.01rem;
+    }
+
+
+    /*============ skills ============*/
+    .skills-use,
+    .skills-learn,
+    .skills-other {
+        grid-template-columns: repeat(auto-fit, minmax(154px, max-content));
+    }
+
+    /*============ contact ============*/
+    form.contact-us-form {
+        gap: 5px;
+        padding: 15px;
+    }
+
+    label {
+        margin-bottom: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select,
+    .contact-form button {
+        padding: 0.3rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:768px) {
+
+    /*========== hero-page ===========*/
+    h2.hero-head {
+        font-size: 2rem;
+    }
+
+    h3.hero-role {
+        font-size: 1.1rem;
+    }
+
+    p.hero-title {
+        font-size: 1rem;
+        width: 89%;
+    }
+
+    p.hero-details {
+        font-size: 1rem;
+    }
+
+    img.profile {
+        height: 100%;
+    }
+
+    /*============== about ==============*/
+    .about-content {
+        gap: 25px;
+    }
+
+    .about-photo {
+        width: 35%;
+    }
+
+    img.about-profile {
+        height: 100%;
+    }
+
+    h5.about-subtitle {
+        font-size: 0.9rem;
+        font-weight: 800;
+    }
+
+    p.about-sec {
+        margin-bottom: 4px;
+        font-size: 0.8rem;
+    }
+
+       button.btn-hire, button.btn-cv {
+        padding: 0.8rem;
+    }
+
+
+    /*=============== skills ===============*/
+    .skills-use,
+    .skills-learn,
+    .skills-other {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .html-skill,
+    .css-skill,
+    .bootstrap-skill,
+    .git-skill,
+    .github-skill,
+    .figma-skill,
+    .js-skill,
+    .sql-skill,
+    .c-skill,
+    .salesforce-skill {
+        width: 23%;
+    }
+
+    /*================== project ==================*/
+    .project-heading-1 {
+        font-size: 1.1rem;
+        font-weight: 700;
+        letter-spacing: 0.01rem;
+    }
+}
+
+@media (max-width:425px) {
+
+    /*========= hero-page ==========*/
+    .hero {
+        padding-block-start: 1rem;
+        padding-block-end: 1rem;
+    }
+
+    .hero-content {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 20px;
+    }
+
+    h2.hero-head {
+        font-size: 1.6rem;
+    }
+
+    h3.hero-role {
+        font-size: 1rem;
+    }
+
+    p.hero-title {
+        font-size: 1rem;
+        width: 98%;
+    }
+
+    p.hero-details {
+        justify-content: space-around;
+    }
+
+    button.btn-view,
+    button.btn-contact,
+    button.btn-resume {
+        padding: 0.6rem;
+    }
+
+    .hero-photo {
+        width: 100%;
+    }
+
+    /*============== about ==============*/
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-photo {
+        width: 100%;
+    }
+
+    .about-info {
+        width: 100%;
+    }
+
+    button.btn-hire,
+    button.btn-cv {
+        padding: 0.6rem;
+    }
+
+    /*===================== skills =====================*/
+    h2.skills-title {
+        margin-bottom: 2rem;
+    }
+
+    .html-skill,
+    .css-skill,
+    .bootstrap-skill,
+    .git-skill,
+    .github-skill,
+    .figma-skill,
+    .js-skill,
+    .sql-skill,
+    .c-skill,
+    .salesforce-skill {
+        width: 46%;
+    }
+
+    h5.skills-sub-heading {
+        margin-bottom: 8%;
+        margin-top: 8%;
+    }
+
+    /*===================== projects =====================*/
+    ul#pills-tab {
+        gap: 10px;
+    }
+
+    .front-end-project,
+    .js-project,
+    .salesforce-project,
+    .react-js-project {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .portfolio,
+    .rockpaperscissors,
+    .tictactoe,
+    .cravecorner,
+    .beautysite,
+    .clientnest,
+    .foodconnect,
+    .laptoprentals,
+    .contactus-page,
+    .shoppingpage,
+    .dice-game {
+        width: 100%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /*================= contact =================*/
+    .contact-details {
+    flex-direction: column;
+}
+h4.contact-subheading {
+    text-align: center;
+}
+.contact-prsnl-info {
+    text-align: center;
+}
+    .contact-form, .contact-info {
+    width: 100%;
+}
+.contact-image {
+    width: 100%;
+}
+iframe {
+    width: 100%;
+}
+
+}
+
+@media(max-width:375px) {
+
+    /*================== hero-page ==================*/
+    button.btn-view,
+    button.btn-contact,
+    button.btn-resume {
+        padding: 0.7rem;
+        font-size: 0.8rem;
+    }
+
+    /*================== projects ==================*/
+    ul#pills-tab {
+        font-size: 0.8rem;
+    }
+}

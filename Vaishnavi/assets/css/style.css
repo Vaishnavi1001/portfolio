@@ -1,0 +1,560 @@
+/*======= universal reset ==========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*============ body styling ============*/
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+/*========= headings =========*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*========== container =============*/
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*============== header =============*/
+a.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.06rem;
+    color: #000;
+    transition: 0.4s ease-in-out;
+}
+
+a.navbar-brand:hover {
+    transform: scale(1.2);
+}
+
+div#navbarSupportedContent {
+    justify-content: center;
+}
+
+ul.navbar-nav {
+    gap: 1rem;
+}
+
+a.nav-link {
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.03rem;
+    color: #000;
+    transition: 0.4s ease-in-out;
+}
+
+a.nav-link:hover {
+    color: #333;
+    transform: scale(1.2);
+}
+
+ul.social-links {
+    display: none;
+    list-style: none;
+    gap: 1rem;
+}
+
+ul.social-desk {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+a.social-item i {
+    transition: 0.4s ease-in;
+}
+
+a.social-item i:hover {
+    transform: scale(1.1);
+}
+
+
+/*========== hero-section ============*/
+.hero {
+    padding-block: 5rem;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2.hero-head {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.06rem;
+    margin-bottom: 1rem;
+}
+
+h3.hero-role {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+p.hero-title {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+p.hero-details {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.03rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-info {
+    display: flex;
+    gap: 1rem;
+}
+
+button.btn-view,
+button.btn-contact,
+button.btn-resume {
+    border: none;
+    background: linear-gradient(120deg, #000, grey);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.btn-view:hover,
+button.btn-contact:hover,
+button.btn-resume:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(120deg, grey, #000);
+}
+
+a.view,
+a.contact-me,
+a.resume {
+    color: white;
+    text-decoration: none;
+}
+
+.hero-photo {
+    width: 50%;
+    border-radius: 15px;
+    transition: all 0.5s ease-in;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-photo:hover {
+    transform: scale(1.2);
+}
+
+img.profile {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/*=============== about-page ======================*/
+.about {
+    padding-block: 5rem;
+}
+h2.about-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.06rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    gap: 100px;
+}
+
+.about-photo {
+    width: 50%;
+}
+
+img.about-profile {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-info {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h5.about-subtitle {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+}
+
+p.about-sec {
+    font-size: 1.16rem;
+    font-weight: 450;
+    letter-spacing: 0.03rem;
+    text-align: center;
+}
+
+.about-btn {
+    display: flex;
+    justify-content: center;
+}
+
+a.hire-me,
+a.cv {
+    color: white;
+    text-decoration: none;
+    width: 42%;
+}
+
+button.btn-hire,
+button.btn-cv {
+    border: none;
+    background: linear-gradient(120deg, #000, grey);
+    color: white;
+    padding: 0.7rem 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 83%;
+}
+
+button.btn-hire:hover,
+button.btn-cv:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(120deg, grey, #000);
+}
+
+/*===================== skills =================== */
+.skills {
+    padding-block: 5rem;
+    background: rgb(243, 243, 243);
+}
+
+h2.skills-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.06rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+h5.skills-sub-heading {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.skills-use,
+.skills-learn,
+.skills-other {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(165px, max-content));
+    gap: 5rem;
+    justify-content: center;
+    width: 100%;
+}
+
+img.icons {
+    width: 60px;
+    height: 60px;
+}
+
+.html-skill,
+.css-skill,
+.bootstrap-skill,
+.git-skill,
+.github-skill,
+.figma-skill,
+.js-skill,
+.sql-skill,
+.c-skill,
+.salesforce-skill {
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    width: 80%;
+    height: 90%;
+}
+
+.html-skill:hover,
+.css-skill:hover,
+.bootstrap-skill:hover,
+.git-skill:hover,
+.github-skill:hover,
+.figma-skill:hover,
+.js-skill:hover,
+.sql-skill:hover,
+.c-skill:hover,
+.salesforce-skill:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #487bb1;
+}
+
+p.skill-head {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+/*================ project-page ================*/
+.project {
+    padding-block-start: 5rem;
+    padding-block-end: 5rem;
+}
+
+h2.project-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.06rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+ul#pills-tab {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-pills .nav-link.pr.active,
+.nav-pills .show>.nav-link.pr {
+    color: white;
+    background-color: black;
+}
+
+.nav-link.pr {
+    color: black;
+}
+
+.nav-link.pr:hover {
+    background-color: black;
+    color: white;
+}
+
+.front-end-project,
+.js-project,
+.salesforce-project,
+.react-js-project {
+    display: flex;    
+    gap: 50px;
+    margin-top: 55px;
+    justify-content: center;
+
+}
+
+.project-card {
+    position: relative;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 4px solid rgba(57, 23, 26, 0.7);
+    border-radius: 10px;
+}
+
+img.portfolio-img,
+img.cravecorner-img,
+img.beautysite-img,
+img.rockpaperscissors-img,
+img.tictactoe-img,
+img.clientnest-img,
+img.foodconnect-img,
+img.laptoprentals-img,
+img.contactus-page-img,
+img.shoppingpage-img,
+img.dice-game-img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 5px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: rgba(57, 23, 26, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+
+.content {
+    color: white;
+    text-align: center;
+}
+
+.project-heading-1 {
+    font-size: 1.3 rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.project-span-1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+}
+
+/*=================== experience-eduaction-page  ===================*/
+.experience-eduaction-sec {
+    padding-block: 5rem;
+}
+h2.experience-eduaction-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.06rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.tab-panel { display: none; }   /* by default hidden */
+.tab-panel.active { display: block; }  /* jo active hai wahi dikhega */
+
+.tab-btn.active {
+  background: black;
+  color: white;
+}
+.tabs {display: flex;justify-content: center;}
+
+button.tab-btn {
+    width: 50%;
+    padding: 0.7rem;
+}
+
+
+/*=========================== contact-page ===========================*/
+.contact {
+    background: rgb(243, 243, 243);
+    padding-block: 5rem;
+}
+
+h2.contact-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.06rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+form.contact-us-form {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+h4.contact-subheading {
+    font-size: 2rem;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
+}
+
+span.details {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+iframe {
+    border: 5px solid;
+}
+
+.contact-image {
+    width: 50%;
+}
+
+img.contact-img {
+    width: 100%;
+}
+
+.contact-form,
+.contact-info {
+    width: 50%;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem;
+    transition: 0.3s;
+}
+
+input,
+textarea,
+select#myDropdown {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-submit {
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    transform: translateY(-2px);
+    background: transparent;
+    color: black;
+}
