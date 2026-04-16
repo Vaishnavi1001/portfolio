@@ -238,7 +238,7 @@ button.btn-cv {
     border: none;
     background: linear-gradient(120deg, #000, grey);
     color: white;
-    padding: 0.7rem 3rem;
+    padding: 0.7rem 1.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: all 0.3s ease;
